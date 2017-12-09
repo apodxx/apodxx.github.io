@@ -1,6 +1,7 @@
 ---
 layout: post
 title: HEXO进阶
+date: 2017-10-12
 tag: 博客
 ---
 
