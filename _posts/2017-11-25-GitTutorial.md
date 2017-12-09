@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Git教程"
+title: "Git及GitHub教程"
 date: 2016-07-13   
 tag: 工具 
 ---
@@ -8,8 +8,9 @@ tag: 工具
 ### 介绍       
 
 　　Git是做项目的版本管理，你也可以称它们为版本管理工具。假如现在你有一个文件夹，里面可以是项目，也可以是你的个人笔记(如我这个博客)，或者是你的简历、毕业设计等等，都可以使用git来管理。
+　　gitHub是一个面向开源及私有软件项目的托管平台，因为只支持git 作为唯一的版本库格式进行托管，故名gitHub。
 
-　　目前常用的版本控制器有Git和SVN，即使这两个你没有全用过，至少也会听过，我这里以Git为例，个人比较喜欢Git，你也可以看看这篇文章：[为什么Git比SVN好](http://www.worldhello.net/2012/04/12/why-git-is-better-than-svn.html)。我使用的是Mac，Mac上没自带Git环境，但是作为iOS开发者，我安装Xcode的时候，Xcode里是有自带Git的，所以我不需要考虑怎么去安装Git了。          
+　　目前常用的版本控制器有Git和SVN，即使这两个你没有全用过，至少也会听过，我这里以Git为例，个人比较喜欢Git，你也可以看看这篇文章：[为什么Git比SVN好](http://www.worldhello.net/2012/04/12/why-git-is-better-than-svn.html)。          
 
 ### 安装Git
 
@@ -51,8 +52,44 @@ tag: 工具
 **添加到暂存区：**      
 
 >* git add .   （全部添加到暂存区）    
->* git commit -m ' first commit'  （提交暂存区的记录到本地仓库）     
+>* git commit -m ' first commit'  （提交暂存区的记录到本地仓库）
 
+**将本地仓库上传到远程仓库中**
+
+>* git push  
+
+
+### 将github的项目clone到本地修改,提交
+(以后记得补充)
+### GitHub的基本操作:
+
+**仓库(repository)**
+
+	仓库用来存放项目代码每一个仓库对应一个项目
+	
+**收藏(star)**
+
+	收藏项目,方便下次查看
+
+**复制克隆(fork)**
+
+	该fork项目是独立存在的
+
+**发起请求(pull request)**
+
+	别人将fork项目修改后发送请求给原作者,原作者如果感觉不错 则会合并
+
+**关注(watch)**
+
+	关注项目,当项目更新可以收到通知
+
+**事务卡片(issue)**
+
+	举例:张三有一个仓库 李四在使用的时候 发现了一个bug  于是发起一个issue 然后张三在主页的左侧发现issue动态,查看到李四关于bug的内容 于是修改掉 并且回复给李四 说改好了  然后关闭issue
+
+**搜索文件**
+
+	快捷键:按"t"
 
 ### 其它   
 
@@ -66,6 +103,5 @@ git branc 查看时如出现
 然后切换到 dev 分支上，在使用 git branch merge temp，就可以把 temp 分支上的代码合并到 dev 上了。
 
 <br>
-
-转载请注明：[潘柏信的博客](http://baixin) » [点击阅读原文](http://baixin.io/2016/07/GitTutorial/)     
+   
 
