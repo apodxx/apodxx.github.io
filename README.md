@@ -54,5 +54,6 @@ Jekyll 需要依赖：Ruby、bundler
 
 
 #### 感谢   
+本博客 fork 自[潘柏信](https://github.com/leopardpan/leopardpan.github.io)
 
 本博客在[Vno Jekyll](https://github.com/onevcat/vno-jekyll)基础上修改的。  
