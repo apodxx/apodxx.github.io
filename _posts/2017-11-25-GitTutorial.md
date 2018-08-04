@@ -60,12 +60,12 @@ tag: 工具
 
 
 **新创建代码后，提交到github的流程**
->cho "# thinkphp" >> README.md
->it init
->it add README.md
->it commit -m "first commit"
->it remote add origin git@github.com:apodxx/thinkphp.git
->it push -u origin master
+>* echo "# thinkphp" >> README.md
+>* git init
+>* git add README.md
+>* git commit -m "first commit"
+>* git remote add origin git@github.com:apodxx/thinkphp.git
+>* git push -u origin master
 
 
 
