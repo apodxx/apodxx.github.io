@@ -59,6 +59,18 @@ tag: 工具
 >* git push  
 
 
+**新创建代码后，提交到github的流程**
+>cho "# thinkphp" >> README.md
+>it init
+>it add README.md
+>it commit -m "first commit"
+>it remote add origin git@github.com:apodxx/thinkphp.git
+>it push -u origin master
+
+
+
+
+
 ### 将github的项目clone到本地修改,提交
 (以后记得补充)
 ### GitHub的基本操作:
