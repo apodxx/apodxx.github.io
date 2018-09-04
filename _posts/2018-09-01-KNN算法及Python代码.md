@@ -122,6 +122,7 @@ classCount
 import operator
 sorted(classCount.items(),key=operator.itemgetter(1),reverse=True)
 ```
+结果输出：
 
     [('A', 2), ('B', 1)]
 
@@ -130,11 +131,15 @@ count=sorted(classCount.items(),key=operator.itemgetter(1),reverse=True)
 count
 ```
 
+结果输出：
+
     [('A', 2), ('B', 1)]
 
 ```python
 count[0]
 ```
+
+结果输出：
 
     ('A', 2)
 
@@ -147,4 +152,8 @@ count[0][0]
 
     'A'
 
+
+## KNN我们还经常使用KNN实现手写体识别
+  
+[代码参考](https://github.com/apodxx/knn/blob/master/knnDemo2.py)
 
