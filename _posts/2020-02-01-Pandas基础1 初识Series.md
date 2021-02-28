@@ -1,7 +1,7 @@
 ---
 layout: post
 title: pandas基础学习1 初始Series
-date: 2020-02-01
+date: 2021-02-01
 tag: 机器学习
 ---
 
